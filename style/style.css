@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* banner style  */
+.banner {
+    background-image: url(../images/banner/banner1.png);
+    background-size: cover;
+    height: 808px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-img {
+    width: 100px;
+}
+
+.banner-brief {
+    text-align: right;
+    margin: 216px 230px 264px 845px;
+}
+
+.banner-brief h1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.banner-brief p {
+    color: #444343;
+    margin-top: 24px;
+}
+
+.banner-btn {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 5px;
+    background-color: #F15B22;
+    padding: 21px;
+    margin-top: 32px;
+}
+
+/* main section style start from here  */
+/* failure section  */
+.failure-section {
+    display: flex;
+    align-items: center;
+    margin-top: 131px;
+}
+
+.failure-img {
+    margin-left: 206px;
+    margin-right: 42px;
+}
+
+.failure-title-description {
+    margin-right: 322px;
+    margin-left: 42px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.failure-description {
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.failure-title-description ul li {
+    color: #444343;
+    list-style: none;
+}
+
+/* my plan style section  */
+.my-plan {
+    margin: 130px 230px;
+}
+
+#plan-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-skills {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 57px;
+}
+
+.particular-skills {
+    text-align: center;
+}
+
+.particular-skills img,
+h1,
+h3 {
+    margin-top: 16px;
+}
+
+/* extra section learn style  */
+.extra-learn-section {
+    margin: 130px 230px;
+    border-bottom: 3px solid grey;
+    border-radius: 30px;
+    background: linear-gradient(#ca5959, #9198e5);
+}
+
+#extra-learning-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    border-top: 3px solid black;
+    border-radius: 30px;
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    border-bottom: 4px solid black;
+}
+
+.extra-learn {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 57px;
+}
+
+.extra-particular-learn {
+    text-align: center;
+    padding-bottom: 40px;
+    color: antiquewhite;
+    font-weight: 800px;
+    font-size: 20px;
+}
+
+.extra-particular-learn img,
+h1,
+h3 {
+    margin-top: 16px;
+}
+
+.extra-particular-learn img {
+    width: 100px;
+    border-radius: 49px;
+}
+
+/* call now section  */
+.call-now {
+    /* background: linear-gradient(#e66465, #8c8facd0); */
+    /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+    max-width: 1140px;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.call-now h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.call-now div {
+    padding: 59px 617px 59px 64px;
+}
+
+.call-now div button {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    padding: 20px 36px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+/* footer section  */
+
+.footer {
+    background: #151414;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 391px;
+    height: 577px;
+    margin-top: 130px;
+}
+
+.footer-text-color {
+    color: #FFFFFF;
+}
+
+.footer-title {
+    margin-bottom: 24px;
+}
+
+.footer div p {
+    margin-top: 16px;
+}
+
+.footer-form {
+    margin-right: 219px;
+}
+
+.footer-description {
+    margin-left: 240px;
+}
+
+.email-input {
+    padding: 21px 158px 21px 20px;
+    border-radius: 6px;
+}
+
+.footer-button {
+    padding: 20px 36px;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    margin-top: 16px;
+}
