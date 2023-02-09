@@ -217,12 +217,14 @@ h3 {
 }
 
 .email-input {
-    padding: 21px 158px 21px 20px;
+    padding: 21px 138px 21px 20px;
+    border: 1px solid whitesmoke;
     border-radius: 6px;
+    background-color: #151414;
 }
 
 .footer-button {
-    padding: 20px 36px;
+    padding: 10px 26px;
     border-radius: 7px;
     font-weight: 600;
     font-size: 20px;
